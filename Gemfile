@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.13'
+gem 'rails', '5.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -17,8 +17,8 @@ end
 #  gem 'sass-rails',   '~> 3.2.3'
 #  gem 'coffee-rails', '~> 3.2.1'
 group :assets do
-  gem 'sass-rails',   '3.2.5'
-  gem 'coffee-rails', '3.2.2'
+  gem 'sass-rails', '5.0.5'
+  gem 'coffee-rails', '4.1.1'
   gem 'uglifier', '1.2.3'
 end
 
@@ -29,7 +29,7 @@ end
 #end
 
 #gem 'jquery-rails'
-gem 'jquery-rails', '2.0.2'
+gem 'jquery-rails', '4.0.1'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
